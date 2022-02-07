@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+html, body{
+    background-color: #B0D7AC;
+    margin: 0;
+    padding: 0;  
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family:'Bangers',Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.game {
+    display:flex;
+    flex-direction: column;
+    border: #074F57 5px solid;
+    border-radius: 1%;
+    max-height: 600px;
+    padding: 20px;
+    background-color: #077187;
+    box-shadow:#077187 5px 5px 2px;
+    align-items: center;
+    }
+
+.gameTitle {
+    font-size: 90px;
+    text-align: center;
+}
+
+.buttonContainer {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    font-size: 30px;
+    gap: 25px;
+}
+
+.option {
+    border: 4px solid #598863;
+    padding: 20px;
+    background-color:#74A57F;
+    text-align: center;
+    border-radius: 5%;
+    width: 150px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.option:hover {
+    background-color:#0993AE;
+}
+
+.scoreContainer {
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: #598863;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #74A57F;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hands {
+    margin: 0 auto;
+    font-size: 30px;
+    height:30px;
+}
+
+.winnerText {
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;
+    height:30px;
+}
+
+.resetButton {
+    background-color: #0993AE;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    padding:5px 20px;
+    border-radius: 5px;
+    border: 3px solid #598863;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.resetButton:hover {
+    background-color: #12CEE2;
+}
+
