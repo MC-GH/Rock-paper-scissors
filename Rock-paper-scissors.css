@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
 html, body{
-    background-color: #B0D7AC;
+    background: linear-gradient(45deg, #B0D7AC, #598863);
     margin: 0;
     padding: 0;
     max-width: 100vw;
  }
+
 * {
     box-sizing: border-box;
 }
@@ -25,9 +26,9 @@ body {
     border-radius: 1%;
     max-height: 600px;
     padding: 20px;
-    background-color: #077187;
     box-shadow:#077187 5px 5px 2px;
     align-items: center;
+    background: linear-gradient(230deg, #077187, #074F57)
     }
 
 .gameTitle {
@@ -56,6 +57,7 @@ body {
 
 .option:hover {
     background-color:#0993AE;
+    transform: scale(1.05);
 }
 
 .scoreContainer {
@@ -97,5 +99,6 @@ body {
 
 .resetButton:hover {
     background-color: #12CEE2;
+    transform: scale(1.05);
 }
 
