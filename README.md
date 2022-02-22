@@ -1,11 +1,10 @@
 # Rock-paper-scissors
-##### Console game made with JavaScript
-Player is asked via a prompt to input Rock, Paper or Scissors.
-Computer generates a random choice, first to win 5 round wins.
+##### Console game made with JavaScript, CSS & HTML
 
 ###### Functionality
-* Calling the function game() launches the game for 5 rounds in the console.
-* When an empty string is entered, player is requested to enter a new response. (response unknown)
-* When the cancel button is clicked, the game stops. 
+* Clicking a button starts the game
+* After one party scores 5 points, a winner is declared and the game cannot be continued
+* Reset button resets the scores and reactivates the buttons (can be used also midgame)
 
-Visual UI and event listeners still to be added
+##### To do
+* Fix display on mobile screens
